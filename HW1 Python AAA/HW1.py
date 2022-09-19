@@ -20,6 +20,3 @@ class CountVectorizer():
     
     def get_feature_names(self):
         return self.feature_names
-
-
-
