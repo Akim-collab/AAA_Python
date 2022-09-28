@@ -48,7 +48,7 @@ class CountVectorizer:
 
         Parameters
         ----------
-        corpus: List[List[str]]
+        corpus: List[str]
             Text corpus
 
         Returns
