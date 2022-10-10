@@ -1,2 +1,32 @@
-ERROR: file or directory not found: decode_test_parametric.py
-
+Trying:
+    encode('... --- ...')
+Expecting:
+    'SOS'
+**********************************************************************
+File "/Users/akimkalenuk/Downloads/HW_Test_Python_AAA/issue_1/encode_doctest.py", line 8, in encode_doctest.encode
+Failed example:
+    encode('... --- ...')
+Expected:
+    'SOS'
+Got:
+    '.-.-.- .-.-.- .-.-.-   -....- -....- -....-   .-.-.- .-.-.- .-.-.-'
+Trying:
+    encode('.- --- ...')
+Expecting:
+    'SOS'
+**********************************************************************
+File "/Users/akimkalenuk/Downloads/HW_Test_Python_AAA/issue_1/encode_doctest.py", line 10, in encode_doctest.encode
+Failed example:
+    encode('.- --- ...')
+Expected:
+    'SOS'
+Got:
+    '.-.-.- -....-   -....- -....- -....-   .-.-.- .-.-.- .-.-.-'
+1 items had no tests:
+    encode_doctest
+**********************************************************************
+1 items had failures:
+   2 of   2 in encode_doctest.encode
+2 tests in 2 items.
+0 passed and 2 failed.
+***Test Failed*** 2 failures.
